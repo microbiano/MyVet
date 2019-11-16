@@ -39,7 +39,8 @@ namespace MyVet.Web.Data
             await _userHelper.CheckRoleAsync("Customer");
         }
 
-        private async Task<User> CheckUserAsync(string document,
+        private async Task<User> CheckUserAsync(
+            string document,
             string firstName,
             string lastName,
             string email,

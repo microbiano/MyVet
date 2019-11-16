@@ -28,7 +28,7 @@ namespace MyVet.Web.Data.Entities
         #region Relaciones Virtuales
             public ServiceType ServiceType { get; set; }
 
-            public Pet pet { get; set; }
+            public Pet Pet { get; set; }
         #endregion
     }
 }
