@@ -28,7 +28,7 @@ namespace MyVet.Web.Data.Entities
         public string Remarks { get; set; }
 
        
-        //TODO: replace the correct URL for the image
+        //Todo: replace the correct URL for the image
         public string ImageFullPath => string.IsNullOrEmpty(ImageUrl)
             ? null
             : $"https://TDB.azurewebsites.net{ImageUrl.Substring(1)}";
